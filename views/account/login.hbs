@@ -1,0 +1,39 @@
+<div class="container-fluid mainConstainer">
+    <div class="row">
+        <div class="col-lg-3 leftpart">
+            <img class='imgRoket' src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
+            <h2 class="left-head">WELCOME</h2>
+            <p class="left-pera">To our website ,Please Login for Further Process</p>
+        </div>
+        <div class="col-lg-9 rightpart">
+            <form action="/v1/user/login" method="post">
+                <div class="row">
+                    <div class="col-lg-12 registration mt-5 pt-3 pb-3">
+                        <h3>Login Form</h3>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="inputfields mt-5">
+                            <label for="exampleInputEmail1">Email :</label>
+                            <input type="email" name="email" class="email form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter Your email">
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="inputfields mt-5">
+                            <label for="pass">Password :</label>
+                            <input name="password" type="password" class="form-control" id="pass"
+                                aria-describedby="emailHelp" placeholder="Enter Your Password">
+                        </div>
+                    </div>
+                    <div class="btn_sign col-sm-11">
+                        <button type="submit" class="button_sign mt-5">Login</button>
+                    </div>
+
+                    <div class="link pt-3 col-sm-11">
+                        <a href="http://localhost:3000/register">Register Your Account !</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
